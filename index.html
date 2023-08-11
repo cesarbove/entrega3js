@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompuMarket</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pcs.css">
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <span id="logo">CompuMarket</span>
+                </div>
+                <div class="two columns u-pull-right">
+                        <li class="submenu">
+                            <img src="img/Carrito.webp" id="img-carrito" width="80 px" height="80px">
+                            <div id="carrito">
+                                <!--completar el dibujo del carrito -->
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th>Cantidad</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                                <a href="#" id="vaciar-carrito" class="boton u-full-width">Vaciar Carrito</a>
+                            </div>
+                        </li>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- card -->    
+    <div id="lista-productos" class="container">
+        <h1 id="encabezado" class="encabezado">Computadoras de escritorio y Notebooks</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Computador-de escritiorio.webp" alt="" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>PC de escritorio para oficina</h4>
+                        <p>Intel celeron, 8gb Ram, Disco de 1tb y Monitor de 19"</p>
+                        <p class="precio">250.000 <span class="u-pull-right ">$220.000</span></p>
+                        <a href="#" class="u-full-width button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+<!-- card -->
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Computadorgamer1.webp" alt="" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Computadora de escritorio Gamer</h4>
+                        <p>AMD Ryzen 5600x, 16gb Ram, ssd 1tb y placa de video Nvidia Rtx 2060</p>
+                        <p class="precio">$450.000 <span class="u-pull-right ">$430.000</span></p>
+                        <a href="#" class="u-full-width button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+<!-- card -->
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Computadoragamer2.webp" alt="" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Computadora de escritorio Gamer</h4>
+                        <p>Intel i7, 32gb Ram, ssd nvme 2tb y placa de video Nvidia Rtx 3080ti</p>
+                        <p class="precio">$1.200.000 <span class="u-pull-right ">$999.999</span></p>
+                        <a href="#" class="u-full-width button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+                    </div>
+                </div>   
+            </div>
+        </div>
+<!-- card -->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Allinone.webp" alt="" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>PC all in one HP</h4>
+                        <p>AMD Ryzen 3, 8gb Ram, 1tb Disco, Pantalla de 22"</p>
+                        <p class="precio">$370.000 <span class="u-pull-right ">$340.000</span></p>
+                        <a href="#" class="u-full-width button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+                    </div>
+                </div> 
+            </div>
+<!-- card -->
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Aceri3.webp" alt="" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Notebook Acer</h4>
+                        <p>Intel i3, 8gb Ram, ssd 512gb, pantalla 15.6"</p>
+                        <p class="precio">$260.000 <span class="u-pull-right ">$240.000</span></p>
+                        <a href="#" class="u-full-width button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+<!-- card -->
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/NoteRog.webp" alt="" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Notebook Gamer</h4>
+                        <p>Asus Rog strix intel i7, 32gb Ram, ssd nvme 2tb, Rtx 3070, pantalla 17"</p>
+                        <p class="precio">$1.800.000 <span class="u-pull-right ">$1.760.000</span></p>
+                        <a href="#" class="u-full-width button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
